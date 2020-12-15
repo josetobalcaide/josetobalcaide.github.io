@@ -1,20 +1,19 @@
 body{
 	font-family: arial, helvetica;
-	margin: 1px;
-	padding: 1px;
-	background: url(Ark.jpg);
-	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: gray;
 }
 .menu{
 	list-style: none;
-	padding: 0;
+	padding: 0px;
 	background: #092327;
 	width: 100%;
-	max-width: 40%;
-	margin: auto;
+	margin: 0px;
 	position: absolute;
-  	left: 1125px;
-  	top: 0px;
+  	left: 1360px;
+  	top: -68px;
+  	position: fixed;
 }
 .menu li a{
 	text-decoration: none;
@@ -28,4 +27,152 @@ body{
 }
 .menu li a:hover{
 	background: #ef8354;
+}
+#titulo{
+	overflow: hidden;
+	background-color:#092327; 
+	border-bottom: #092327; 
+	color: white;
+}
+#inicio{
+	opacity: 0.5;
+	color: black;
+	background-color: white;
+	position: relative;
+	top: 100px;
+	font-weight: bold;
+}
+#fotosinicio h2{
+	top: 320px;
+	opacity: 0.5;
+	background-color: white;
+	position: absolute;
+}
+#fotosinicio img{
+	top: 380px;
+	position: absolute;
+}
+#dinopedia{
+	top: 1000px;
+	position: absolute;
+}
+p{
+	opacity: 0.5;
+	background-color: white;
+}
+#tameos{
+	top: 1500px;
+	position: absolute;
+}
+#tabla{
+	position: absolute;
+	left: 130px;
+}
+#tabla2{
+	position: absolute;
+	left: 430px;
+}
+#tabla3{
+	position: absolute;
+	left: 730px;
+}
+#primero1{
+	top: 2000px;
+	position: absolute;	
+}
+#hombre1{
+	top: 2180px;
+	position: absolute;
+	height: 400px;
+	left: 500px;
+}
+#segundo2{
+	top: 2600px;
+	position: absolute;
+}
+#mujer1{
+	top: 2700px;
+	position: absolute;
+	height: 420px;
+	left: 500px
+}
+#mapas h3{
+	top: 3200px;
+	position: absolute;
+}
+#primero{
+	top: 3300px;
+	position: absolute;
+}
+#segundo{
+	top: 3600px;
+	position: absolute;
+}
+#tercero{
+	top: 3300px;
+	position: absolute;
+	left: 500px;
+}
+#cuarto{
+	top: 3600px;
+	position: absolute;
+	left: 500px;
+}
+#quinto{
+	top: 3300px;
+	position: absolute;
+	left: 960px;
+}
+#sesto{
+	top: 3600px;
+	position: absolute;
+	left: 960px;
+}
+#septimo{
+	top: 3300px;
+	position: absolute;
+	left: 1500px;
+}
+#octavo{
+	top: 3600px;
+	position: absolute;
+	left: 1500px;
+}
+#mapa1{
+ top: 3370px;
+ position: absolute;
+}
+#mapa2{
+	top: 3670px;
+	position: absolute;
+}
+#mapa3{
+	top: 3370px;
+	position: absolute;
+	left: 450px;
+}
+#mapa4{
+	top: 3670px;
+	position: absolute;
+	left: 450px;
+}
+#mapa5{
+	top: 3370px;
+	position: absolute;
+	left: 900px;
+}
+#mapa6{
+	top: 3670px;
+	position: absolute;
+	left: 900px;
+}
+#mapa7{
+	top: 3370px;
+	position: absolute;
+	left: 1450px;
+}
+#mapa8{
+	top: 3670px;
+	position: absolute;
+	left: 1450px;
 }
